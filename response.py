@@ -11,4 +11,4 @@ def response(user_input: str) -> str:
         if response.status_code == 200:
             return response.json()[0]['url'] 
         else:
-            return "Unable to fetch data from the API"
+            return "Cats are sleeping... Try again later!"
