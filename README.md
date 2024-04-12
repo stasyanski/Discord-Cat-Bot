@@ -1,9 +1,11 @@
 
 # Discord-Cat-Bot
 
-This is a cute Discord bot which responds with an image of a cat whenever a user types a related word. The bot will respond to the following:
+This is a cute Discord bot which responds with an image or GIF of a cat whenever a user types a related word. The bot will respond to the following:
 
-- ['cat', 'cats', 'kitten', 'kittens', 'kitty', 'kitties', 'feline', 'felines', 'meow', 'purr', 'paws', 'whiskers', 'claws', 'tail', 'fur', 'purr', 'pussy','puss', 'pussycat', 'pussycats', 'kittycat', 'kittycats', 'kitty-cat', 'kitty-cats']
+- ['cat', 'cats', 'kitten', 'kittens', 'kitty', 'kitties', 'feline', 'felines', 'meow', 'purr', 'paws', 'whiskers', 'claws', 'tail', 'fur', 'purr', 'pussy', 'puss', 'pussycat', 'pussycats', 'kittycat', 'kittycats', 'kitty-cat', 'kitty-cats']
+
+This bot is based on TheCatApi, https://www.thecatapi.com. Feel free to add or remove words as needed from the cat_dict dictionary in response.py
 
 When a user types one of the words above in a text channel, the bot will respond, like so: 
 
